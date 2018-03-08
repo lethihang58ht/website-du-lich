@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+a
+{ text-decoration: none; }
+#container /* Đây là cái khung bao bên ngoài */ {
+  width: 1200px;
+	height: 1250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#banner /* Đây là phần chứa ảnh slides*/ {
+	background-image: url('anhtrangchu1.jpg');
+	width: 1200px;
+	height: 500px;
+}
+
+#content1{
+  margin-top: 30px;
+  width: 398px;
+  height: 638px;
+  float: left;
+  border: 0.5px solid lightblue;
+}
+.text{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+}
+#content2{
+  margin-top: 30px;
+  width: 398px;
+  height: 638px;
+  float: left;
+  border: 0.5px solid lightblue;
+}
+#content3{
+  margin-top: 30px;
+  width: 398px;
+  height: 638px;
+  float: left;
+  border: 0.5px solid lightblue;
+
+}
+.images{
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 300px;
+}
+#footer{
+  width: 1200px;
+  height: 100px;
+  background-color:lightblue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu{
+	width: 1200px;
+	height: 50px;
+	background-color: lightblue;
+
+}
+
+#menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #FBF2EF;
+  display: inline-block;
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+}
+#menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#menu a:hover {
+  background: #FBF2EF;
+  color: #333;
+}
